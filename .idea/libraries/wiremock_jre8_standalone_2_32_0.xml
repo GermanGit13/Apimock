@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="wiremock-jre8-standalone-2.32.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apimock/wiremock-jre8-standalone-2.32.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
