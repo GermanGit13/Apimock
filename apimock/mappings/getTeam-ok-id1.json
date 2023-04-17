@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/teams/1"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "getTeam-ok-id1.json"
+  }
+}
