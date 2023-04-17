@@ -1,0 +1,22 @@
+{
+  "category": "Benjamin",
+  "competition": "Moratalaz",
+  "cuota": 300,
+  "dayTrain": "Martes y Jueves",
+  "startTrain": "19:15",
+  "endTrain": "20:15",
+  "active": true,
+  "userInTeam": {
+    "id": 2,
+    "username": "kobe",
+    "pass": "Acces0@",
+    "rol": "user",
+    "coach": false,
+    "name": "Kobe",
+    "surname": "Bryant",
+    "address": "Gran Via, 24",
+    "mail" : "kb@grs.com",
+    "phone": "666240828"
+  }
+}
+

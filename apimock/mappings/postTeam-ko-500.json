@@ -1,0 +1,14 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "urlPattern": "/users/([0-9]*)/teams/500"
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "postTeam-ko-500.json"
+  }
+}
