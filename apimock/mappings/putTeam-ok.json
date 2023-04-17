@@ -1,0 +1,14 @@
+{
+  "priority": 3,
+  "request": {
+    "method": "PUT",
+    "url": "/teams/3/users/1"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "putTeam-ok-id3.json"
+  }
+}

@@ -625,6 +625,331 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Team",
+			"item": [
+				{
+					"name": "postTeam-ko-500",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"category\": \"Benjamin\",\r\n  \"competition\": \"Moratalaz\",\r\n  \"cuota\": 300,\r\n  \"dayTrain\": \"Martes y Jueves\",\r\n  \"startTrain\": \"19:15\",\r\n  \"endTrain\": \"20:15\",\r\n  \"active\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/1/teams/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"1",
+								"teams",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postTeam-ko-400",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"category\": \"\",\r\n  \"competition\": \"\",\r\n  \"cuota\": 300,\r\n  \"dayTrain\": \"Martes y Jueves\",\r\n  \"startTrain\": \"19:15\",\r\n  \"endTrain\": \"20:15\",\r\n  \"active\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/1/teams/400",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"1",
+								"teams",
+								"400"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postTeam-ok",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"category\": \"Benjamin\",\r\n  \"competition\": \"Moratalaz\",\r\n  \"cuota\": 300,\r\n  \"dayTrain\": \"Martes y Jueves\",\r\n  \"startTrain\": \"19:15\",\r\n  \"endTrain\": \"20:15\",\r\n  \"active\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/2/teams",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"2",
+								"teams"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTeam-ko-400",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/teams/aA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"aA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTeam-ok-id1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/teams/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTeam-filtro-ok",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/team/?userInTeam=1&active=true",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"team",
+								""
+							],
+							"query": [
+								{
+									"key": "userInTeam",
+									"value": "1"
+								},
+								{
+									"key": "active",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteTeam-ko-500",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"adriana\",\r\n  \"pass\": \"T0c@p3l0\",\r\n  \"name\": \"Adriana\",\r\n  \"surname\": \"Rodriguez Dominguez\",\r\n  \"address\": \"Calle Tacona, 23\",\r\n  \"phone\": \"666151565\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteTeam-ko-404",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/teams/33",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"33"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deletePlayer-ok",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/teams/69",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"69"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putTeams-ko-404",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Jesús\",\r\n    \"surname\": \"Alvarez Perez\",\r\n    \"dni\": \"50979666J\",\r\n    \"birthDate\" : \"2020-12-22\",\r\n    \"allergy\" : \"Sin alergias\",\r\n    \"dorsal\" : 13,\r\n    \"sex\" : \"M\",\r\n    \"active\" :  true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams/33",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"33"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putTeam-ko-400",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"category\": \"\",\r\n  \"competition\": \"Moratalaz\",\r\n  \"cuota\": 300,\r\n  \"dayTrain\": \"Martes y Jueves\",\r\n  \"startTrain\": \"19:15\",\r\n  \"endTrain\": \"20:15\",\r\n  \"active\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putTeam-ok-id3",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n    \"category\": \"Junior\",\r\n    \"competition\": \"Federado\",\r\n    \"cuota\": 300,\r\n    \"dayTrain\": \"Miercoles y Viernes\",\r\n    \"startTrain\": \"18:15\",\r\n    \"endTrain\": \"20:15\",\r\n    \"active\": true\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams/3/users/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"3",
+								"users",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }

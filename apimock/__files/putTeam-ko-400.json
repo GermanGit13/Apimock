@@ -1,0 +1,7 @@
+{
+  "code": 400,
+  "message": "Bad Request",
+  "errors": {
+    "category": "El campo no puede estar en blanco"
+  }
+}
