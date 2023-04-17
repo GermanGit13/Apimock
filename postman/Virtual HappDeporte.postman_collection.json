@@ -384,7 +384,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Adriana\",\r\n    \"surname\": \"Rodriguez Dominguez\",\r\n    \"dni\": \"50979666A\",\r\n    \"birthDate\" : \"2018-11-22\",\r\n    \"allergy\" : \"Lactosa\",\r\n    \"dorsal\" : 22,\r\n    \"sex\" : \"F\",\r\n    \"active\" :  true\r\n}",
+							"raw": "{\r\n    \"name\": \"Adriana\",\r\n    \"surname\": \"Rodriguez Dominguez\",\r\n    \"dni\": \"50979666A\",\r\n    \"birthDate\" : \"2018-11-22\",\r\n    \"allergy\" : \"Lactosa y Fructosa\",\r\n    \"dorsal\" : 6,\r\n    \"sex\" : \"F\",\r\n    \"active\" :  true\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -408,19 +408,19 @@
 					"response": []
 				},
 				{
-					"name": "getUser-ko-400",
+					"name": "getPlayer-ko-400",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/users/aA",
+							"raw": "http://localhost:8080/players/aA",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"users",
+								"players",
 								"aA"
 							]
 						}
@@ -428,19 +428,19 @@
 					"response": []
 				},
 				{
-					"name": "getUser-ok-id1",
+					"name": "getPlayer-ok-id1",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/users/1",
+							"raw": "http://localhost:8080/players/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"users",
+								"players",
 								"1"
 							]
 						}
@@ -448,26 +448,26 @@
 					"response": []
 				},
 				{
-					"name": "getUser-ok",
+					"name": "getPlayer-ok",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/users",
+							"raw": "http://localhost:8080/players",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"users"
+								"players"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "deleteUser-ko-500",
+					"name": "deletePlayer-ko-500",
 					"request": {
 						"method": "DELETE",
 						"header": [],
@@ -481,14 +481,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/500",
+							"raw": "http://localhost:8080/players/500",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"users",
+								"players",
 								"500"
 							]
 						}
@@ -496,19 +496,19 @@
 					"response": []
 				},
 				{
-					"name": "deleteUser-ko-404",
+					"name": "deletePlayer-ko-404",
 					"request": {
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/users/24",
+							"raw": "http://localhost:8080/players/24",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"users",
+								"players",
 								"24"
 							]
 						}
@@ -516,19 +516,19 @@
 					"response": []
 				},
 				{
-					"name": "deleteUser-ok",
+					"name": "deletePlayer-ok",
 					"request": {
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/users/13",
+							"raw": "http://localhost:8080/players/13",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"users",
+								"players",
 								"13"
 							]
 						}
@@ -536,13 +536,13 @@
 					"response": []
 				},
 				{
-					"name": "putUser-ko-404",
+					"name": "putPlayer-ko-404",
 					"request": {
 						"method": "PUT",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"username\": \"Mariano\",\r\n  \"pass\": \"CambioPass\",\r\n  \"name\": \"Mariano\",\r\n  \"surname\": \"Perez Serrano\",\r\n  \"address\": \"Calle del águila, 23\",\r\n  \"phone\": \"999999999\"\r\n}",
+							"raw": "{\r\n    \"name\": \"Jesús\",\r\n    \"surname\": \"Alvarez Perez\",\r\n    \"dni\": \"50979666J\",\r\n    \"birthDate\" : \"2020-12-22\",\r\n    \"allergy\" : \"Sin alergias\",\r\n    \"dorsal\" : 13,\r\n    \"sex\" : \"M\",\r\n    \"active\" :  true\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -550,14 +550,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/13",
+							"raw": "http://localhost:8080/players/13",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"users",
+								"players",
 								"13"
 							]
 						}
@@ -565,13 +565,13 @@
 					"response": []
 				},
 				{
-					"name": "putUser-ko-400",
+					"name": "putPlayer-ko-400",
 					"request": {
 						"method": "PUT",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"\",\r\n    \"pass\": \"Acces0@Dat0S\",\r\n    \"name\": \"German\",\r\n    \"surname\": \"Rodriguez Serrano\",\r\n    \"address\": \"Calle Tacona, 23\",\r\n    \"phone\": \"666666666\"\r\n}",
+							"raw": "{\r\n    \"name\": \"\",\r\n    \"surname\": \"Rodriguez Dominguez\",\r\n    \"dni\": \"50979666A\",\r\n    \"birthDate\" : \"2018-11-22\",\r\n    \"allergy\" : \"Lactosa\",\r\n    \"dorsal\" : 22,\r\n    \"sex\" : \"F\",\r\n    \"active\" :  true\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -579,14 +579,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/1",
+							"raw": "http://localhost:8080/players/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"users",
+								"players",
 								"1"
 							]
 						}
@@ -594,13 +594,13 @@
 					"response": []
 				},
 				{
-					"name": "putUser-ok-id3",
+					"name": "putPlayer-ok-id1",
 					"request": {
 						"method": "PUT",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "  {\r\n    \"username\": \"PauG\",\r\n    \"pass\": \"CambioPassyUser\",\r\n    \"rol\": \"coach\",\r\n    \"coach\": true,\r\n    \"name\": \"Pau\",\r\n    \"surname\": \"Gasol\",\r\n    \"address\": \"Calle Puerto, 16\",\r\n    \"mail\" : \"pau@grs.com\",\r\n    \"phone\": \"666160416\"\r\n  }",
+							"raw": "{\r\n  \"name\": \"Adriana\",\r\n  \"surname\": \"Rodriguez Dominguez\",\r\n  \"dni\": \"50979666A\",\r\n  \"birthDate\" : \"2018-11-22\",\r\n  \"allergy\" : \"Lactosa y Fructosa\",\r\n  \"dorsal\" : 6,\r\n  \"sex\" : \"F\",\r\n  \"active\" :  true\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -608,15 +608,17 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/3",
+							"raw": "http://localhost:8080/players/1/users/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
+								"players",
+								"1",
 								"users",
-								"3"
+								"1"
 							]
 						}
 					},

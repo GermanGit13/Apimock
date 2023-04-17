@@ -2,13 +2,13 @@
   "priority": 1,
   "request": {
     "method": "PUT",
-    "url": "/users/1"
+    "url": "/players/1"
   },
   "response": {
     "status": 400,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "putUser-ko-400.json"
+    "bodyFileName": "putPlayer-ko-400.json"
   }
 }
