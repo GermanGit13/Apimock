@@ -1,0 +1,628 @@
+{
+	"info": {
+		"_postman_id": "bbe11ffa-6601-49f3-a535-2f8c0f7bfe48",
+		"name": "Virtual HappDeporte",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24068761"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "postUser-ko-500",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"adrii\",\r\n  \"pass\": \"T0c@p3l0\",\r\n  \"rol\": \"user\",\r\n  \"coach\": false,\r\n  \"name\": \"Adriana\",\r\n  \"surname\": \"Rodriguez Dominguez\",\r\n  \"address\": \"Calle Tacona, 23\",\r\n  \"mail\" : \"ard@ard.com\",  \r\n  \"phone\": \"666151565\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postUser-ko-400",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"ad\",\r\n  \"pass\": \"T0c@p3l0\",\r\n  \"rol\": \"user\",\r\n  \"coach\": false,\r\n  \"name\": \"Adriana\",\r\n  \"surname\": \"Rodriguez Dominguez\",\r\n  \"address\": \"Calle Tacona, 23\",\r\n  \"mail\" : \"ard@ard.com\",  \r\n  \"phone\": \"666151565\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/400",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"400"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postUser-ok",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"ger13\",\r\n  \"pass\": \"Acces0@Dat0S\",\r\n  \"rol\": \"user\",\r\n  \"coach\": true,\r\n  \"name\": \"German\",\r\n  \"surname\": \"Rodriguez Serrano\",\r\n  \"address\": \"Calle Tacona, 23\",\r\n  \"mail\" : \"grs@grs.com\",  \r\n  \"phone\": \"666666666\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUser-ko-400",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users/aA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"aA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUser-ok-id1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUser-ok",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteUser-ko-500",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"adriana\",\r\n  \"pass\": \"T0c@p3l0\",\r\n  \"name\": \"Adriana\",\r\n  \"surname\": \"Rodriguez Dominguez\",\r\n  \"address\": \"Calle Tacona, 23\",\r\n  \"phone\": \"666151565\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteUser-ko-404",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users/24",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"24"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteUser-ok",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users/13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putUser-ko-404",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"Mariano\",\r\n  \"pass\": \"CambioPass\",\r\n  \"name\": \"Mariano\",\r\n  \"surname\": \"Perez Serrano\",\r\n  \"address\": \"Calle del águila, 23\",\r\n  \"phone\": \"999999999\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putUser-ko-400",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"\",\r\n    \"pass\": \"Acces0@Dat0S\",\r\n    \"name\": \"German\",\r\n    \"surname\": \"Rodriguez Serrano\",\r\n    \"address\": \"Calle Tacona, 23\",\r\n    \"phone\": \"666666666\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putUser-ok-id3",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n    \"username\": \"PauG\",\r\n    \"pass\": \"CambioPassyUser\",\r\n    \"rol\": \"coach\",\r\n    \"coach\": true,\r\n    \"name\": \"Pau\",\r\n    \"surname\": \"Gasol\",\r\n    \"address\": \"Calle Puerto, 16\",\r\n    \"mail\" : \"pau@grs.com\",\r\n    \"phone\": \"666160416\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Player",
+			"item": [
+				{
+					"name": "postPlayer-ko-500",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Adriana\",\r\n    \"surname\": \"Rodriguez Dominguez\",\r\n    \"dni\": \"50979686W\",\r\n    \"birthDate\" : \"2018-11-22\",\r\n    \"allergy\" : \"Lactosa\",\r\n    \"dorsal\" : 22,\r\n    \"sex\" : \"F\",\r\n    \"active\" :  true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/1/players/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"1",
+								"players",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postPlayer-ko-400",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Adriana\",\r\n    \"surname\": \"Rodriguez Dominguez\",\r\n    \"dni\": \"\",\r\n    \"birthDate\" : \"2018-11-22\",\r\n    \"allergy\" : \"Lactosa\",\r\n    \"dorsal\" : 22,\r\n    \"sex\" : \"F\",\r\n    \"active\" :  true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/1/players/400",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"1",
+								"players",
+								"400"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postPlayer-ok",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Adriana\",\r\n    \"surname\": \"Rodriguez Dominguez\",\r\n    \"dni\": \"50979666A\",\r\n    \"birthDate\" : \"2018-11-22\",\r\n    \"allergy\" : \"Lactosa\",\r\n    \"dorsal\" : 22,\r\n    \"sex\" : \"F\",\r\n    \"active\" :  true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/1/players",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"1",
+								"players"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUser-ko-400",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users/aA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"aA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUser-ok-id1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUser-ok",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteUser-ko-500",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"adriana\",\r\n  \"pass\": \"T0c@p3l0\",\r\n  \"name\": \"Adriana\",\r\n  \"surname\": \"Rodriguez Dominguez\",\r\n  \"address\": \"Calle Tacona, 23\",\r\n  \"phone\": \"666151565\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteUser-ko-404",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users/24",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"24"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteUser-ok",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users/13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putUser-ko-404",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"Mariano\",\r\n  \"pass\": \"CambioPass\",\r\n  \"name\": \"Mariano\",\r\n  \"surname\": \"Perez Serrano\",\r\n  \"address\": \"Calle del águila, 23\",\r\n  \"phone\": \"999999999\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putUser-ko-400",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"\",\r\n    \"pass\": \"Acces0@Dat0S\",\r\n    \"name\": \"German\",\r\n    \"surname\": \"Rodriguez Serrano\",\r\n    \"address\": \"Calle Tacona, 23\",\r\n    \"phone\": \"666666666\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putUser-ok-id3",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n    \"username\": \"PauG\",\r\n    \"pass\": \"CambioPassyUser\",\r\n    \"rol\": \"coach\",\r\n    \"coach\": true,\r\n    \"name\": \"Pau\",\r\n    \"surname\": \"Gasol\",\r\n    \"address\": \"Calle Puerto, 16\",\r\n    \"mail\" : \"pau@grs.com\",\r\n    \"phone\": \"666160416\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
