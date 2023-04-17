@@ -1,0 +1,7 @@
+{
+  "code": 400,
+  "message": "Bad Request",
+  "errors": {
+    "username": "el tamaño debe estar entre 3 y 9"
+  }
+}

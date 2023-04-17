@@ -1,0 +1,12 @@
+{
+  "id": 3,
+  "username": "PauG",
+  "pass": "CambioPassyUser",
+  "rol": "coach",
+  "coach": true,
+  "name": "Pau",
+  "surname": "Gasol",
+  "address": "Calle Puerto, 16",
+  "mail" : "pau@grs.com",
+  "phone": "666160416"
+}

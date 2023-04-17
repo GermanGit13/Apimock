@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "username": "ger13",
+    "pass": "Acces0@Dat0S",
+    "rol": "admin",
+    "coach": true,
+    "name": "German",
+    "surname": "Rodriguez Serrano",
+    "address": "Calle Tacona, 23",
+    "mail" : "grs@grs.com",
+    "phone": "666666666"
+  },
+  {
+    "id": 2,
+    "username": "kobe",
+    "pass": "Acces0@",
+    "rol": "user",
+    "coach": false,
+    "name": "Kobe",
+    "surname": "Bryant",
+    "address": "Gran Via, 24",
+    "mail" : "kb@grs.com",
+    "phone": "666240828"
+  },
+  {
+    "id": 3,
+    "username": "pauG",
+    "pass": "@Dat0S",
+    "rol": "coach",
+    "coach": true,
+    "name": "Pau",
+    "surname": "Gasol",
+    "address": "Calle Puerto, 16",
+    "mail" : "pau@grs.com",
+    "phone": "666160416"
+  }
+]
