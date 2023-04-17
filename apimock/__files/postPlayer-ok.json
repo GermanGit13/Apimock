@@ -1,0 +1,23 @@
+{
+  "name": "Adriana",
+  "surname": "Rodriguez Dominguez",
+  "dni": "50979666A",
+  "birthDate" : "2018-11-22",
+  "allergy" : "Lactosa",
+  "dorsal" : 22,
+  "sex" : "F",
+  "active" :  true,
+  "userInPlayer": {
+    "id": 1,
+    "username": "ger13",
+    "pass": "Acces0@Dat0S",
+    "rol": "user",
+    "coach": true,
+    "name": "German",
+    "surname": "Rodriguez Serrano",
+    "address": "Calle Tacona, 23",
+    "mail" : "grs@grs.com",
+    "phone": "666666666"
+  }
+}
+
