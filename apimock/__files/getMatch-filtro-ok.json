@@ -1,46 +1,32 @@
-[
-  {
-    "id": 2,
-    "category": "Cadete",
+{
+  "id": 2,
+  "teamB": "San Blas CB",
+  "markerA": 45,
+  "markerB": 44,
+  "analysis": "Gran Victoria del Equipo",
+  "location": "Pabellon Moratalaz",
+  "dateMatch": "2023-01-05",
+  "hourMatch": "10:00:00",
+  "teamInMatch": {
+    "id": 1,
+    "category": "Benjamin",
     "competition": "Moratalaz",
     "cuota": 300,
     "dayTrain": "Martes y Jueves",
-    "startTrain": "20:15",
-    "endTrain": "21:15",
+    "startTrain": "19:15",
+    "endTrain": "20:15",
     "active": true,
     "userInTeam": {
-      "id": 1,
-      "username": "ger13",
-      "pass": "Acces0@Dat0S",
+      "id": 2,
+      "username": "kobe",
+      "pass": "Acces0@",
       "rol": "user",
-      "coach": true,
-      "name": "German",
-      "surname": "Rodriguez Serrano",
-      "address": "Calle Tacona, 23",
-      "mail": "grs@grs.com",
-      "phone": "666666666"
-    }
-  },
-  {
-    "id": 3,
-    "category": "Junior",
-    "competition": "Federado",
-    "cuota": 300,
-    "dayTrain": "Martes y Jueves",
-    "startTrain": "21:15",
-    "endTrain": "22:15",
-    "active": true,
-    "userInTeam": {
-      "id": 1,
-      "username": "ger13",
-      "pass": "Acces0@Dat0S",
-      "rol": "user",
-      "coach": true,
-      "name": "German",
-      "surname": "Rodriguez Serrano",
-      "address": "Calle Tacona, 23",
-      "mail": "grs@grs.com",
-      "phone": "666666666"
+      "coach": false,
+      "name": "Kobe",
+      "surname": "Bryant",
+      "address": "Gran Via, 24",
+      "mail" : "kb@grs.com",
+      "phone": "666240828"
     }
   }
-]
+}

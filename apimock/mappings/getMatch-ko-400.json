@@ -2,13 +2,13 @@
   "priority": 1,
   "request": {
     "method": "GET",
-    "urlPattern": "/teams/([a-zA-Z]*)"
+    "urlPattern": "/matches/([a-zA-Z]*)"
   },
   "response": {
     "status": 400,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "getTeam-ko-400.json"
+    "bodyFileName": "getMatch-ko-400.json"
   }
 }

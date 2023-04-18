@@ -8,6 +8,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "getMatch-ok-u-id2.json"
+    "bodyFileName": "getMatch-ok-team-id2.json"
   }
 }

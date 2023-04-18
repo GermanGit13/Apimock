@@ -1,13 +1,13 @@
 {
   "request": {
     "method": "GET",
-    "url": "/team/?userInTeam=1&active=true"
+    "url": "/matches?teamInMatch=1"
   },
   "response": {
     "status": 200,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "getTeam-filtro-ok.json"
+    "bodyFileName": "getMatch-filtro-ok.json"
   }
 }
