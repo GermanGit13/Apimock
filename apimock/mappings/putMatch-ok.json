@@ -1,14 +1,14 @@
 {
-  "priority": 1,
+  "priority": 3,
   "request": {
     "method": "PUT",
-    "url": "/teams/1"
+    "url": "/matches/3/teams/2"
   },
   "response": {
-    "status": 404,
+    "status": 201,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "putTeam-ko-400.json"
+    "bodyFileName": "putMatch-ok-id3.json"
   }
 }

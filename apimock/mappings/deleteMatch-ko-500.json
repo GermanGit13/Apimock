@@ -2,13 +2,13 @@
   "priority": 2,
   "request": {
     "method": "DELETE",
-    "url": "/players/500"
+    "url": "/matches/500"
   },
   "response": {
     "status": 500,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "deletePlayer-ko-500.json"
+    "bodyFileName": "deleteTeam-ko-500.json"
   }
 }

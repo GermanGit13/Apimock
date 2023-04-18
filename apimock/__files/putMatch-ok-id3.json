@@ -1,0 +1,32 @@
+{
+  "id": 3,
+  "teamB": "Loreto",
+  "markerA": 25,
+  "markerB": 24,
+  "analysis": "Nos clasificamos a la siquiente fase",
+  "location": "Pabellon Moratalaz",
+  "dateMatch": "2023-02-05",
+  "hourMatch": "15:00:00",
+  "teamInMatch": {
+    "id": 2,
+    "category": "Cadete",
+    "competition": "Moratalaz",
+    "cuota": 300,
+    "dayTrain": "Martes y Jueves",
+    "startTrain": "20:15",
+    "endTrain": "21:15",
+    "active": true,
+    "userInTeam": {
+      "id": 1,
+      "username": "ger13",
+      "pass": "Acces0@Dat0S",
+      "rol": "user",
+      "coach": true,
+      "name": "German",
+      "surname": "Rodriguez Serrano",
+      "address": "Calle Tacona, 23",
+      "mail": "grs@grs.com",
+      "phone": "666666666"
+    }
+  }
+}
