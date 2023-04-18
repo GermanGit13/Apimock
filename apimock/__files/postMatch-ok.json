@@ -1,0 +1,33 @@
+{
+  "id": 1,
+  "teamB": "Loreto CB",
+  "markerA": 55,
+  "markerB": 44,
+  "analysis": "Gran Victoria del Equipo Femenino",
+  "location": "Pabellon Moratalaz",
+  "dateMatch": "2023-01-05",
+  "hourMatch": "22:00:00",
+  "teamInMatch": {
+    "id": 2,
+    "category": "Cadete",
+    "competition": "Moratalaz",
+    "cuota": 300,
+    "dayTrain": "Martes y Jueves",
+    "startTrain": "20:15",
+    "endTrain": "21:15",
+    "active": true,
+    "userInTeam": {
+      "id": 1,
+      "username": "ger13",
+      "pass": "Acces0@Dat0S",
+      "rol": "user",
+      "coach": true,
+      "name": "German",
+      "surname": "Rodriguez Serrano",
+      "address": "Calle Tacona, 23",
+      "mail": "grs@grs.com",
+      "phone": "666666666"
+    }
+  }
+}
+
