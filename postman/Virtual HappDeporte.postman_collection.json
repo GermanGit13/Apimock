@@ -950,6 +950,644 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Match",
+			"item": [
+				{
+					"name": "postMatch-ko-500",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams/1/matches/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"1",
+								"matches",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postMatch-ko-400",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"teamB\": \"\",\r\n  \"markerA\": 55,\r\n  \"markerB\": 44,\r\n  \"analysis\": \"Gran Victoria del Equipo Femenino\",\r\n  \"location\": \"Pabellon Moratalaz\",\r\n  \"dateMatch\": \"2023-01-05\",\r\n  \"hourMatch\": \"22:00:00\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams/1/matches/400",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"1",
+								"matches",
+								"400"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postMatch-ok",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"teamB\": \"Loreto CB\",\r\n  \"markerA\": 55,\r\n  \"markerB\": 44,\r\n  \"analysis\": \"Gran Victoria del Equipo Femenino\",\r\n  \"location\": \"Pabellon Moratalaz\",\r\n  \"dateMatch\": \"2023-01-05\",\r\n  \"hourMatch\": \"22:00:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams/2/matches",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"2",
+								"matches"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getMatch-ko-400",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/matches/aA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"matches",
+								"aA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getMatch-ok-id1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/matches/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"matches",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getMatch-filtro-ok",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/matches?teamInMatch=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"matches"
+							],
+							"query": [
+								{
+									"key": "teamInMatch",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteMatch-ko-500",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"adriana\",\r\n  \"pass\": \"T0c@p3l0\",\r\n  \"name\": \"Adriana\",\r\n  \"surname\": \"Rodriguez Dominguez\",\r\n  \"address\": \"Calle Tacona, 23\",\r\n  \"phone\": \"666151565\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/matches/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"matches",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteMatch-ko-404",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/matches/44",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"matches",
+								"44"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteMatch-ok",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/matches/9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"matches",
+								"9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putMatch-ko-404",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"teamB\": \"Sains de Vicuña\",\r\n  \"markerA\": 33,\r\n  \"markerB\": 41,\r\n  \"analysis\": \"Derrora dolorosa pero con buenas sensaciones defensivas\",\r\n  \"location\": \"Pabellon Moratalaz\",\r\n  \"dateMatch\": \"2023-01-04\",\r\n  \"hourMatch\": \"11:00:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/matches/66",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"matches",
+								"66"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putMatch-ko-400",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"teamB\": \"\",\r\n  \"markerA\": 55,\r\n  \"markerB\": 44,\r\n  \"analysis\": \"Gran Victoria del Equipo Femenino\",\r\n  \"location\": \"Pabellon Moratalaz\",\r\n  \"dateMatch\": \"2023-01-05\",\r\n  \"hourMatch\": \"22:00:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/matches/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"matches",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putMatch-ok-id3",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"teamB\": \"Loreto\",\r\n  \"markerA\": 25,\r\n  \"markerB\": 24,\r\n  \"analysis\": \"Nos clasificamos a la siquiente fase\",\r\n  \"location\": \"Pabellon Moratalaz\",\r\n  \"dateMatch\": \"2023-02-05\",\r\n  \"hourMatch\": \"15:00:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/matches/3/teams/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"matches",
+								"3",
+								"teams",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Clothes",
+			"item": [
+				{
+					"name": "postClothes-ko-500",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"equipment\": true,\r\n\r\n  \"sizeEquipment\": \"XL\",\r\n  \"sizeSweatshirt\": \"XL\",\r\n  \"serygrafhy\": \"Rodríguez\",\r\n  \"dorsal\": 13,\r\n  \"priceEquipment\": 55.5,\r\n  \"priceSweatshirt\": 25\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/players/1/clothes/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"players",
+								"1",
+								"clothes",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postClothes-ko-400",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"equipment\": true,\r\n  \"sweatshirt\": true,\r\n  \"sizeEquipment\": \"XL\",\r\n  \"sizeSweatshirt\": \"XL\",\r\n  \"serygrafhy\": \"\",\r\n  \"dorsal\": 133,\r\n  \"priceEquipment\": 55.5,\r\n  \"priceSweatshirt\": 25\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/players/1/clothes/400",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"players",
+								"1",
+								"clothes",
+								"400"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postClothes-ok",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"equipment\": true,\r\n  \"sweatshirt\": true,\r\n  \"sizeEquipment\": \"XL\",\r\n  \"sizeSweatshirt\": \"XL\",\r\n  \"serygrafhy\": \"Rodriguez\",\r\n  \"dorsal\": 13,\r\n  \"priceEquipment\": 55.5,\r\n  \"priceSweatshirt\": 25\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/players/1/clothes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"players",
+								"1",
+								"clothes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getClothes-ko-400",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/clothes/aA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clothes",
+								"aA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getClothes-ok-id2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/clothes/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clothes",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getClothes-ok",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/clothes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clothes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteClothes-ko-500",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/clothes/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clothes",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteClothes-ko-404",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/clothes/98",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clothes",
+								"98"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteClothes-ok",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/clothes/13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clothes",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putClothes-ko-404",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"equipment\": true,\r\n  \"sweatshirt\": false,\r\n  \"sizeEquipment\": \"XL\",\r\n  \"sizeSweatshirt\": \"\",\r\n  \"serygrafhy\": \"Rodriguez\",\r\n  \"dorsal\": 13,\r\n  \"priceEquipment\": 55.5,\r\n  \"priceSweatshirt\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/clothes/98/players/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clothes",
+								"98",
+								"players",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putClothes-ko-400",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"equipment\": true,\r\n    \"sweatshirt\": false,\r\n    \"sizeEquipment\": \"L\",\r\n    \"sizeSweatshirt\": \"\",\r\n    \"serygrafhy\": \"\",\r\n    \"dorsal\": 6,\r\n    \"priceEquipment\": 55.5,\r\n    \"priceSweatshirt\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/clothes/2/players/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clothes",
+								"2",
+								"players",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putClothes-ok",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"equipment\": true,\r\n    \"sweatshirt\": true,\r\n    \"sizeEquipment\": \"L\",\r\n    \"sizeSweatshirt\": \"L\",\r\n    \"serygrafhy\": \"C.MARTINEZ\",\r\n    \"dorsal\": 8,\r\n    \"priceEquipment\": 55.5,\r\n    \"priceSweatshirt\": 25\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/clothes/3/players/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clothes",
+								"3",
+								"players",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }
