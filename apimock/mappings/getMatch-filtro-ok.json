@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/team/?userInTeam=1&active=true"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "getTeam-filtro-ok.json"
+  }
+}
