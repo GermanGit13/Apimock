@@ -1,0 +1,35 @@
+{
+  "id": 2,
+  "equipment": true,
+  "sweatshirt": false,
+  "sizeEquipment": "XL",
+  "sizeSweatshirt": "",
+  "serygrafhy": "Martinez",
+  "dorsal": 8,
+  "priceEquipment": 55.5,
+  "priceSweatshirt": "",
+  "playerInClothes": {
+    "id": 2,
+    "name": "Manuel",
+    "surname": "Dominguez",
+    "dni": "50977685W",
+    "birthDate": "2019-11-22",
+    "allergy": "Fructosa",
+    "dorsal": 22,
+    "sex": "M",
+    "active": true,
+    "userInPlayer": {
+      "id": 2,
+      "username": "kobe",
+      "pass": "Acces0@",
+      "rol": "user",
+      "coach": false,
+      "name": "Kobe",
+      "surname": "Bryant",
+      "address": "Gran Via, 24",
+      "mail": "kb@grs.com",
+      "phone": "666240828"
+    }
+  }
+}
+
