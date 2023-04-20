@@ -24,12 +24,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/500",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/500",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"500"
@@ -53,12 +51,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/400",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/400",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"400"
@@ -82,12 +78,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users"
 							]
@@ -101,12 +95,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/users/aA",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/aA",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"aA"
@@ -121,12 +113,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/users/1",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/1",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"1"
@@ -141,12 +131,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/users",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users"
 							]
@@ -169,12 +157,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/500",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/500",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"500"
@@ -189,12 +175,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/users/24",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/24",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"24"
@@ -209,12 +193,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/users/13",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/13",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"13"
@@ -238,12 +220,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/13",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/13",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"13"
@@ -267,12 +247,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/1",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/1",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"1"
@@ -296,12 +274,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/3",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/3",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"3"
@@ -330,12 +306,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/1/players/500",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/1/players/500",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"1",
@@ -361,12 +335,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/1/players/400",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/1/players/400",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"1",
@@ -392,12 +364,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/1/players",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/1/players",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"1",
@@ -413,12 +383,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/players/aA",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/players/aA",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"players",
 								"aA"
@@ -433,12 +401,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/players/1",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/players/1",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"players",
 								"1"
@@ -453,12 +419,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/players",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/players",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"players"
 							]
@@ -481,12 +445,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/players/500",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/players/500",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"players",
 								"500"
@@ -501,12 +463,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/players/24",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/players/24",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"players",
 								"24"
@@ -521,12 +481,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/players/13",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/players/13",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"players",
 								"13"
@@ -550,12 +508,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/players/13",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/players/13",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"players",
 								"13"
@@ -579,12 +535,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/players/1",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/players/1",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"players",
 								"1"
@@ -608,12 +562,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/players/1/users/1",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/players/1/users/1",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"players",
 								"1",
@@ -644,12 +596,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/1/teams/500",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/1/teams/500",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"1",
@@ -675,12 +625,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/1/teams/400",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/1/teams/400",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"1",
@@ -706,12 +654,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/users/2/teams",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/users/2/teams",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"users",
 								"2",
@@ -727,12 +673,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/teams/aA",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/teams/aA",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"teams",
 								"aA"
@@ -747,12 +691,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/teams/1",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/teams/1",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"teams",
 								"1"
@@ -767,12 +709,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/team/?userInTeam=1&active=true",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/team/?userInTeam=1&active=true",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"team",
 								""
@@ -806,12 +746,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/teams/500",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/teams/500",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"teams",
 								"500"
@@ -826,12 +764,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/teams/33",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/teams/33",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"teams",
 								"33"
@@ -846,12 +782,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/teams/69",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/teams/69",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"teams",
 								"69"
@@ -875,12 +809,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/teams/33",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/teams/33",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"teams",
 								"33"
@@ -904,12 +836,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/teams/1",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/teams/1",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"teams",
 								"1"
@@ -933,12 +863,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/teams/3/users/1",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/teams/3/users/1",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"teams",
 								"3",
@@ -969,12 +897,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/teams/1/matches/500",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/teams/1/matches/500",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"teams",
 								"1",
@@ -1000,12 +926,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/teams/1/matches/400",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/teams/1/matches/400",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"teams",
 								"1",
@@ -1031,12 +955,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/teams/2/matches",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/teams/2/matches",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"teams",
 								"2",
@@ -1052,12 +974,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/matches/aA",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/matches/aA",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"matches",
 								"aA"
@@ -1072,12 +992,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/matches/1",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/matches/1",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"matches",
 								"1"
@@ -1092,12 +1010,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/matches?teamInMatch=1",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/matches?teamInMatch=1",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"matches"
 							],
@@ -1126,12 +1042,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/matches/500",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/matches/500",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"matches",
 								"500"
@@ -1146,12 +1060,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/matches/44",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/matches/44",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"matches",
 								"44"
@@ -1166,12 +1078,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/matches/9",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/matches/9",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"matches",
 								"9"
@@ -1195,12 +1105,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/matches/66",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/matches/66",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"matches",
 								"66"
@@ -1224,12 +1132,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/matches/1",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/matches/1",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"matches",
 								"1"
@@ -1253,12 +1159,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/matches/3/teams/2",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/matches/3/teams/2",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"matches",
 								"3",
@@ -1289,12 +1193,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/players/1/clothes/500",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/players/1/clothes/500",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"players",
 								"1",
@@ -1320,12 +1222,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/players/1/clothes/400",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/players/1/clothes/400",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"players",
 								"1",
@@ -1351,12 +1251,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/players/1/clothes",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/players/1/clothes",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"players",
 								"1",
@@ -1372,12 +1270,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/clothes/aA",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/clothes/aA",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"clothes",
 								"aA"
@@ -1392,12 +1288,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/clothes/2",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/clothes/2",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"clothes",
 								"2"
@@ -1412,12 +1306,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/clothes",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/clothes",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"clothes"
 							]
@@ -1440,12 +1332,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/clothes/500",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/clothes/500",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"clothes",
 								"500"
@@ -1460,12 +1350,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/clothes/98",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/clothes/98",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"clothes",
 								"98"
@@ -1480,12 +1368,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/clothes/13",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/clothes/13",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"clothes",
 								"13"
@@ -1509,12 +1395,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/clothes/98/players/2",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/clothes/98/players/2",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"clothes",
 								"98",
@@ -1540,12 +1424,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/clothes/2/players/2",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/clothes/2/players/2",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"clothes",
 								"2",
@@ -1571,12 +1453,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/clothes/3/players/2",
-							"protocol": "http",
+							"raw": "{{path}}{{host}}{{port}}/clothes/3/players/2",
 							"host": [
-								"localhost"
+								"{{path}}{{host}}{{port}}"
 							],
-							"port": "8080",
 							"path": [
 								"clothes",
 								"3",
@@ -1588,6 +1468,43 @@
 					"response": []
 				}
 			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "path",
+			"value": "http:\\\\",
+			"type": "string"
+		},
+		{
+			"key": "host",
+			"value": "localhost",
+			"type": "string"
+		},
+		{
+			"key": "port",
+			"value": ":8080",
+			"type": "string"
 		}
 	]
 }
